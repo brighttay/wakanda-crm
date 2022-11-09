@@ -1,0 +1,224 @@
+/* IMPORT FONT */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* REUSEABLE */
+span{
+    color: #00a85a
+}
+/* BODY */
+body{
+    position: relative;
+    overflow-x: hidden;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+/* TRANSPARENT BACKGROUND */
+.transparent-background{
+    background-color: rgba(0, 0, 0, 0.318);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px; 
+    opacity: 1;
+}
+
+/* =========================MAIN CONTAINER========================= */
+h2{
+    font-size: 150%;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+p , a{
+    font-size: 120%;
+    font-weight: 500;
+    line-height: 1.5;
+    color:rgb(48, 48, 48)
+}
+.main-container{
+    position: relative;
+    background-color: #fff;
+    opacity: 1;
+    width: 70%;
+    margin: 60px auto;
+    height: 500px;
+    border-radius: 20px;
+    z-index: 100;
+    transition: 0.7s;
+    display: flex;
+    justify-content: space-between;
+}
+
+.crm-logo{
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+}
+/* LEFT CONTAINER */
+.left{
+    margin-left: 70px;
+    margin-top: 100px;
+    padding-right: 50px
+}
+
+input[type=text],input[type=email]{
+    display: block;
+    margin-top: 40px;
+    outline: none;
+    width: 400px;
+    padding: 15px;
+    border: 1px solid #87AC9B;
+    background-color: #EFF7F0;
+    border-radius: 5px;
+}
+label[for=add-email], label[for=organization-name] {
+    margin-top: 5px;
+    display: block;
+    
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;;
+}
+
+label[for=avatar]{
+    background-color: #a9d046;
+    border: 1px solid #a9d046;
+    font-weight: 700;
+    font-size: 150%;
+    color: #ffffff;
+    padding: 20px 30px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+label[for=upload]{
+    background-color: #EFF7F0;
+    padding: 20px;
+    border: 1px solid #87AC9B29;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+label[for=upload] img{
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bar{
+    width: 1px;
+    background-color: #87AC9B;
+    height: 20px;
+    margin: auto; 
+}
+
+/* .display-flex-item{
+    display: flex;
+    flex-direction: column;
+} */
+.range, .customer-range{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    border: 1px solid #87AC9B;
+    padding: 5px 30px;
+    border-radius: 20px;
+    
+}
+
+input[type=radio]:focus + label, .btn-next{
+   background-color: #00a85a;
+   color: #fff;
+}
+
+input[type=file]:focus + label, input[type=checkbox]:focus + label{
+    border: 2px solid  #00a85a;
+}
+.clear-fix{
+    display: block;
+}
+label{
+    font-size: 60%;
+    cursor: pointer;
+}
+
+input[type=radio],input[type=file],input[type=checkbox]{
+    opacity: 0;
+    position: absolute;
+    height:0px;
+    width: 0px;
+    cursor: pointer;
+}
+/* RIGHT CONTAINER */
+.right {
+    background-color: #00a85a;
+    height: 500px;
+    width: 350px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+/* BACKGROUND PATTERN LAYER */
+.right img{
+    position: relative;
+    right: 300px;
+    bottom: 160px;
+    height: 180%;
+    z-index: 100;
+
+}
+
+.btn-next{
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #00a85a;
+    color: #fff;
+    text-align: center;
+    padding: 7px 25px;
+    border-radius: 5px;
+    font-size: 60%;
+    cursor: pointer;
+    outline: 1px solid transparent;
+    border: 1px solid transparent;
+}
+
+.btn-prev{
+    position: absolute;
+    left: 450px;
+    bottom: 25px;
+    width: 70px;
+    cursor: pointer;
+    
+
+}
+.page-tracker{
+    position: absolute;
+    bottom: 40px;
+    left: 70px;
+    width: 80px
+
+}
+
+
+
+
+
+
+
+

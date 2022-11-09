@@ -1,0 +1,14 @@
+<svg id="Component_51_1" data-name="Component 51 – 1" xmlns="http://www.w3.org/2000/svg" width="105" height="50" viewBox="0 0 105 50">
+  <g id="Group_1200" data-name="Group 1200" transform="translate(-967 -885)">
+    <g id="Group_1198" data-name="Group 1198" transform="translate(-121 731)">
+      <text id="Prev" transform="translate(1193 185)" fill="#163828" font-size="16" font-family="Raleway-Bold, Raleway" font-weight="700" letter-spacing="0.04em"><tspan x="-42" y="0">PREV</tspan></text>
+      <g id="Group_1193" data-name="Group 1193" transform="translate(1088 154)">
+        <rect id="Rectangle_434" data-name="Rectangle 434" width="50" height="50" rx="12" fill="#eff7f0"/>
+        <g id="Group_1194" data-name="Group 1194" transform="translate(13 13)">
+          <rect id="Rectangle_377" data-name="Rectangle 377" width="24" height="24" fill="none"/>
+          <path id="chevron-back" d="M21.038,7.875l-8.1,8.1,8.1,8.1" transform="translate(-4.988 -3.975)" fill="none" stroke="#163828" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.375"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+    <!-- FIRST SECTION -->
+    <div class="transparent-background">
+        <div class="main-container">
+            <img src="images/Group 824.png" class="crm-logo">
+            <div class="left">
+                <h2>Set Up Your Workstation</h2>
+                <p>
+                    Welcome, <span>Bolaji</span><br> Let’s get you started for 
+                    productivity,<br>  This will only take a minute
+                </p>
+                <a href="#" class="btn-next" onclick="forward()">START</a>
+                <img src="images/Component 50 – 6.svg" class="page-tracker"alt="">
+               
+            </div>
+            <div class="right">
+                <img src="images/Layer_x0020_1.svg" alt="">
+            </div>        
+        </div>
+    </div>
+
+       <!-- SECOND SECTION -->
+    <div class="transparent-background">
+        <div class="main-container">
+            <img src="images/Group 824.png" class="crm-logo">
+            <div class="left">
+                <h2>Name Your Workstation</h2>
+                    <input type="text" name="text" placeholder="Type your workstation name here" id="organization-name">
+                    <label for="organization-name">You can use the name of your company or organization</label>
+                <a href="#" class="btn-next" onclick="forward()">Next</a>
+                <img src="images/Component 50 – 3.svg" class="page-tracker"alt="">
+                <img src="images/Component 51 – 1.svg" class="btn-prev" onclick="back()" alt="">
+            </div>
+            <div class="right">
+                <img src="images/Layer_x0020_1.svg" alt="">
+            </div>        
+        </div>
+    </div>
+
+       <!-- THIRD SECTION -->
+    <div class="transparent-background">
+        <div class="main-container">
+            <img src="images/Group 824.png" class="crm-logo">
+            <div class="left">
+                <h2>Customize Your Avatar</h2>
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <input type="file" name="" id="upload" >
+                        <label for="upload"><img src="images/upload.svg" alt=""><label><br>upload Image</label></label>
+                    </div>
+                    <div class="flex-item">
+                        <div class="bar"></div>
+                            <p class="bar-text">Or</p>
+                        <div class="bar"></div>
+                    </div>
+                    <div class="flex-item">
+                        <input type="checkbox" name="avatar" id="avatar">
+                        <label for="avatar">B</label>
+                    </div>
+                </div>
+                <a href="#" class="btn-next" onclick="forward()">Next</a>
+                <img src="images/Component 50 – 7.svg" class="page-tracker"alt="">
+                <img src="images/Component 51 – 1.svg" class="btn-prev" onclick="back()" alt="">
+            </div>
+            <div class="right">
+                <img src="images/Layer_x0020_1.svg" alt="">
+            </div>        
+        </div>
+    </div>
+
+       <!-- FOURTH SECTION -->
+    <div class="transparent-background">
+        <div class="main-container">
+            <img src="images/Group 824.png" class="crm-logo">
+            <div class="left">
+                <h2>Invite People To Your Workstation</h2>
+                <input type="email" name="email" placeholder="Enter Emails here (or past multiple emails)" id="add-email">
+                    <label for="add-email">Seperate multiple Emails with (,)</label>
+                <a href="#" class="btn-next" onclick="forward()">Next</a>
+                <img src="images/Component 50 – 8.svg" class="page-tracker"alt="">
+                <img src="images/Component 51 – 1.svg" class="btn-prev" onclick="back()" alt="">
+            </div>
+            <div class="right">
+                <img src="images/Layer_x0020_1.svg" alt="">
+            </div>        
+        </div>
+    </div>
+       <!-- FIFTH SECTION -->
+    <div class="transparent-background">
+        <div class="main-container">
+            <img src="images/Group 824.png" class="crm-logo">
+            <div class="left">
+                <h2>How Many People Are On Team</h2>
+                <div class="clearfix"></div>
+                <input type="radio" name="range" id="range-one" value="0 - 10" checked="">
+                <label class="range" for="range-one">1 - 10</label>
+                <input type="radio" name="range" id="range-two" value="11 - 20">
+                <label class="range" for="range-two">11 - 20</label>
+                <input type="radio" name="range" id="range-three" value="21 - 30">
+                <label class="range" for="range-three">21 - 30</label>
+                <input type="radio" name="range" id="range-four" value="31 - 40">
+                <label class="range" for="range-four">31 - 40</label>
+                <a href="#" class="btn-next" onclick="forward()">Next</a>
+                <img src="images/Component 50 – 9.svg" class="page-tracker"alt="">
+                <img src="images/Component 51 – 1.svg" class="btn-prev" onclick="back()" alt="">
+            </div>
+            <div class="right">
+                <img src="images/Layer_x0020_1.svg" alt="">
+            </div>        
+        </div>
+    </div>
+       <!-- SIXTH SECTION -->
+    <div class="transparent-background">
+        <div class="main-container">
+            <img src="images/Group 824.png" class="crm-logo">
+            <div class="left">
+                <h2>How Many Customers Are <br>You Going To Be Working With</h2>
+                
+                <input type="radio" name="customer-range" id="customer-range-one" value="1 - 20" checked="checked">
+                    <label class="customer-range" for="customer-range-one">1 - 20</label>
+                <input type="radio" name="customer-range" id="customer-range-two" value="21 - 50">
+                    <label class="customer-range" for="customer-range-two">21 - 50</label>
+                <input type="radio" name="customer-range" id="customer-range-three" value="51 - 100">
+                    <label class="customer-range" for="customer-range-three">51 - 100</label>
+                <input type="radio" name="customer-range" id="customer-range-four" value="101 - 250">
+                    <label class="customer-range" for="customer-range-four">101 - 250</label>
+                <input type="radio" name="customer-range" id="customer-range-five" value="251 - 500">
+                    <label class="customer-range" for="customer-range-five">251 - 500</label>
+                <input type="radio" name="customer-range" id="customer-range-six" value="501 - 1000">
+                    <label class="customer-range" for="customer-range-six">501 - 1000</label>
+                <div class="clearfix"></div>
+                <a href="#" class="btn-next" onclick="forward()">Next</a>
+                <img src="images/Component 51 – 1.svg" class="btn-prev" onclick="back()" alt="">
+                <img src="images/Component 50 – 10.svg" class="page-tracker"alt="">
+                <img src="images/Component 51 – 1.svg" class="btn-prev" onclick="back()" alt="">
+            </div>
+            <div class="right">
+                <img src="images/Layer_x0020_1.svg" alt="">
+            </div>        
+        </div>
+    </div>
+       <!-- LAST SECTION -->
+    <div class="transparent-background">
+        <div class="main-container">
+            <img src="images/Group 824.png" class="crm-logo">
+            <div class="left">
+                <h2>Thats it.</h2>
+                <p>Congratulations,<span>Bolaji</span> <br> Now go and Have fun and be <br> productive.</p>
+                <input type="submit" class="btn-next" onclick="fadeOut()" value="Lets Go"></a>
+                <img src="images/Component 50 – 11.svg" class="page-tracker"alt="">
+                <img src="images/Component 51 – 1.svg" class="btn-prev" onclick="back()" alt="">
+            </div>
+            <div class="right">
+                <img src="images/Layer_x0020_1.svg" alt="">
+            </div>        
+        </div>
+    </div>
+</form>
+    <script src="script.js"></script>
+</body>
+</html>
